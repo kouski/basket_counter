@@ -14,23 +14,29 @@
     <title>Basket Scoreboard</title>
   </head>
   <body>
+    
     <div class="container">
+      <div class="container-flex">
       <section class="team-one">
         <h3>HOME</h3>
         <p id="home-score">0</p>
-        <button onclick="trespuntos">+3</button>
-        <button onclick="dospuntos">+2</button>
-        <button onclick="unpunto">+1</button>
+        <button class="btn" onclick="trespuntosh()">+3</button>
+        <button class="btn" onclick="dospuntosh()">+2</button>
+        <button class="btn" onclick="unpuntoh()">+1</button>
         
       </section>
       <section class="team-two">
       <h3>GUEST</h3>
       <p id="guest-score">0</p>
-        <button onclick="trespuntos">+3</button>
-        <button onclick="dospuntos">+2</button>
-        <button onclick="unpunto">+1</button>
+        <button class="btn" onclick="trespuntosg()">+3</button>
+        <button class="btn" onclick="dospuntosg()">+2</button>
+        <button class="btn" onclick="unpuntog()">+1</button>
+        
       </section>
     </div>
+    <button onclick="reset()" id="resetear">RESET</button>
+    </div>
+    
   </body>
   <script src="main.js"></script>
 </html>

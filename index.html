@@ -1,14 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Graduate&family=Roboto:wght@300;900&family=Source+Sans+Pro:wght@400;900&display=swap"
+      rel="stylesheet"
+    />
     <title>Basket Scoreboard</title>
-</head>
-<body>
-    
-</body>
-<script src="main.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <section class="team-one">
+        <h3>HOME</h3>
+        <p id="home-score">0</p>
+        <button onclick="trespuntos">+3</button>
+        <button onclick="dospuntos">+2</button>
+        <button onclick="unpunto">+1</button>
+        
+      </section>
+      <section class="team-two">
+      <h3>GUEST</h3>
+      <p id="guest-score">0</p>
+        <button onclick="trespuntos">+3</button>
+        <button onclick="dospuntos">+2</button>
+        <button onclick="unpunto">+1</button>
+      </section>
+    </div>
+  </body>
+  <script src="main.js"></script>
 </html>

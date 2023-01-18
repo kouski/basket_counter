@@ -1,4 +1,58 @@
 body{
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Graduate', cursive;
 }
+
+.container{
+    display: flex;
+    justify-content: space-around;
+    width: 575px;
+    height: 385px;
+    margin: 50px auto;
+    border: 6px solid orangered;
+    border-radius: 20px;
+    background-image: url(./cancha.jpeg);
+    background-size: cover;
+
+}
+
+h3{
+    color: whitesmoke;
+    font-size: 40px;
+    font-weight: bold;
+    text-shadow: 0 0 2px black;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+p{
+    font-size: 90px;
+    background: white;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    padding: 0 20px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+button{
+    margin-left: 3px;
+    width: 45px;
+    height: 45px;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    
+}
+
+button:hover{
+    background-color: lightgreen;
+}
+
+
+
+
+
+
